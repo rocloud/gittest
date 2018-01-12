@@ -1,1 +1,20 @@
 asdfasdfasdfasdfaaaaaaaaaaaaaaaASDFASDF
+367491
+367491
+367491
+367491
+
+
+select max(lst_dt) from mlptmodinf;
+
+select count(*) from mlptmodinf where lst_dt='20160630';
+
+select lst_dt,count(*) from mlptmodinf where MBL_NO in ('13880882906','13880777740','13880947325','13880993093','13881002882','13881188825','13881110008','13881373217','13881296345','13881866222','13881776320','13882181180','13550734041','13550785777','13551200532','13551526113','13551693067','13558833677','13558858911','13568225652') group by lst_dt order by lst_dt;
+select lst_dt,count(*) from mlptmodinf where MBL_NO='13880777740' group by lst_dt order by lst_dt;
+
+<![CDATA[SELECT MBL_PROV,MBL_ID_NO,MBL_NO,LST_DT,MOD_NO,MOD_VER,CRE_DT,CRE_TM,AGE,SEX,ORIGIN,VIP_FLG,IN_VIP_FLG,OUT_VIP_FLG,GRP_FLG,IN_GRP_FLG,OUT_GRP_FLG,UNT_PST,NET_TM,MAN_MBL,NMN_MBL,ROAM,CONS_MON,VOICE_MON,TM_SMP FROM MLPTMODINF WHERE LST_DT='20160630' AND ROWNUM <= 200]]>;
+
+766609
+select * from CUSTPINF where MBL_NO = '18208269509';
+
+one and more servers failed! see SYS.log file for complete information
